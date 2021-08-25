@@ -1,0 +1,6 @@
+Github'ta HiCoders21-22 reposunu olusturdum
+git clone islemi ile repoyu lokalime aldim 
+Klasorlerim hazirda bulundugu icin sadece 
+git add . islemini yaptim 
+git commit -m "" ile mesajimi yazdim 
+git push ile git repomda olan dosyalari github repoma gonderdim
