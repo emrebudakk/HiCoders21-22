@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav style="display: flex; justify-content: space-around;">
+                <img src="https://hicoders.ch/wp-content/uploads/2020/07/hiCoders-Vector25.png" alt="logo"
+                    width="100px">
+                <a href="./home.html" style="margin-left: 1150px;">Home</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+            <hr>
+        </header>
+
+        <center>
+            <section style="text-align: left; width: 1000px; background-color: rgb(238, 232, 232);">
+                <article style=" width: 50%; height: 50%; position: relative; margin: auto;">
+                    <h3><b> The HiCoders welcomes you!</b></h3>
+                    <p>
+                        We are experience software engineers. We voluntarily help peolpe who are interested
+                        in IT and run various course for this purpose. If you are interested in our course, do
+                        not hesiate to contact us!
+                    </p>
+                </article>
+            </section>
+        </center>
+
+        <center>
+            <div style="text-align: left; width: 1000px; background-color: rgb(238, 232, 232);">
+                <form action="personal" style=" width: 50%; height: 50%; position: relative; margin: auto;">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="fname">Firstname</label>
+                        <br>
+                        <input type="text" placeholder="Plase enter your firstname!">
+                        <br>
+                        <label for="lname">Lastname</label>
+                        <br>
+                        <input type="text" placeholder="Plase enter your  lastname">
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" placeholder="Plase enter your email!">
+                        <br>
+                        <label for="gender">Gender</label>
+                        <br>
+                        <input type="radio" name="female"> Female
+                        <br>
+                        <input type="radio" name="female"> Male
+                        <br>
+                        <label for="phone">Phone</label>
+                        <br>
+                        <input type="number" placeholder="Please enter your phone no.">
+                        <br>
+                        <label for="Grad">Graduation</label>
+                        <br>
+                        <select>
+                            <option value="PhD">PhD</option>
+                            <option value="master">Master</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="association">Association</option>
+                        </select>
+                        <br>
+                        <label>What do you expect form this course?</label>
+                        <br>
+                        <textarea name="expect" cols="50" rows="10"></textarea>
+                        <br>
+                        <label>Why do you want to learn programming?</label>
+                        <br>
+                        <textarea name="learn" cols="50" rows="10"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+        <br>
+
+        <center>
+            <div style="text-align: left; width: 1000px; background-color: rgb(238, 232, 232);">
+                <form action="family" style=" width: 50%; height: 50%; position: relative; margin: auto;">
+                    <fieldset>
+                        <legend>Family Members</legend>
+                        <label for="marrie">Are you married?</label>
+                        <br>
+                        <input type="radio" name="yes">Yes
+                        <br>
+                        <input type="radio" name="yes">No
+                        <br>
+                        <label for="child">If you married, how many child do you have?</label>
+                        <br>
+                        <input type="number" name="child" placeholder="Enter number of children!">
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+
+        <center>
+            <div style="text-align: left; width: 1000px; background-color: rgb(238, 232, 232);">
+                <form action="app" style=" width: 50%; height: 50%; position: relative; margin: auto;">
+                    <fieldset>
+                        <legend>Confirmation and Application</legend>
+                        <label for="lang">Which ones are you familiar with?</label>
+                        <br>
+                        <input type="checkbox" name="html" id="html">HTML
+                        <br>
+                        <input type="checkbox" name="css" id="css">CSS
+                        <br>
+                        <input type="checkbox" name="boot" id="boot">Bootstrap
+                        <br>
+                        <input type="checkbox" name="js" id="js">Javascript
+                        <br>
+                        <input type="checkbox" name="node" id="node">NodeJS
+                        <br>
+                        <input type="checkbox" name="react" id="react">ReactJS
+                        <br>
+                        <label for="cv">Add your CV</label>
+                        <br>
+                        <input type="file" name="cv" id="cv">
+                        <br>
+                        <input type="checkbox" name="terms" id="terms">Please confirm by ticking the box after reading
+                        the
+                        <a href="#">privacy terms and conditions</a>!
+                        <br>
+                        <input type="submit" value="Sunmit">
+                    </fieldset>
+                </form>
+            </div>
+        </center>
+        <hr>
+
+        <footer style="display: flex; justify-content: space-evenly; background-color: rgb(238, 232, 232); "
+            align="center">
+            <dl>
+
+                <head><b>Our Course Phases</b></head>
+                <br><br>
+                <dt>&ocy; Web Fundamentals</dt>
+                <dt>&ocy; Web Programming</dt>
+                <dt>&ocy; Fullstack Web Programming</dt>
+                <dt>&ocy; Capstone Project</dt>
+            </dl>
+            <dl>
+
+                <head><b>Contact</b></head>
+                <br><br>
+                <dt>&#9993;<a href="mailto:info@hicoders.ch">info@hicoders.ch</a></dt>
+                <dt>&#9990;<a href="tel:+41009001010">+41009001010</a></dt>
+                <dt>&#10023;Schaffuserstasse 480,</dt>
+                <dt>8052 Zurich</dt>
+            </dl>
+        </footer>
+    </main>
+</body>
+
+</html>
