@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+}
+form :nth-child(2) > p{
+    color:rgb(223, 25, 25);
+    background-image: url("https://hicoders.ch/wp-content/uploads/2020/07/hiCoders-Vector25.png");
+    background-color: rgb(163, 154, 154);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+table tbody:nth-child(3)> tr:nth-child(3)> td:nth-child(4) {
+background-color: aqua;
+}
