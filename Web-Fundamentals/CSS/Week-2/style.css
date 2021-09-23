@@ -1,8 +1,10 @@
-body{
+/* I gave a margin of 0 to tilt the page to the right.*/
+body {
     margin: 0px;
 }
 
-#outside{
+/* I gave the same height and width to create a square.*/
+#outside {
     top: 0px;
     left: 0px;
     background-color: red;
@@ -11,7 +13,8 @@ body{
     box-shadow: 3px 6px 8px black;
 }
 
-#vertical{
+/* In the vertical and horizontal parts, I gave the height and width values ​​as the opposite and got the plus sign.*/
+#vertical {
     position: absolute;
     background-color: white;
     left: 96px;
@@ -20,7 +23,7 @@ body{
     width: 320px;
 }
 
-#horizontal{
+#horizontal {
     position: absolute;
     background-color: white;
     top: 96px;
