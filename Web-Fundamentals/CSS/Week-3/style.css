@@ -1,0 +1,184 @@
+/*arkaplan rengi belirlendi*/
+html {
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+}
+
+/*header kisminin özellikleri ayarlandi*/
+header {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    width: 500px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+header:hover {
+    background-color: #0fafc4;
+    width: auto;
+    height: auto;
+}
+
+/*header altindaki fieldsete eklenmeler yapildi*/
+header>fieldset {
+    transition: all 10s;
+    display: none;
+}
+
+header:hover fieldset {
+    display: block;
+
+}
+
+/*headerin icindeki #page kismina duzunlemeler eklendi*/
+
+header>#page {
+    text-shadow: 2px 2px #FF0000;
+    color: rgb(0, 99, 124);
+    font-size: xx-large;
+    font-family: Verdana;
+    text-align: center;
+
+}
+
+/*filedsetin altinda bulunan claslara islem yapildi*/
+fieldset>.giris {
+    letter-spacing: 1.3mm;
+    color: rgb(19, 19, 196);
+}
+
+fieldset>.gelisme {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+fieldset>.sonuc {
+    font-weight: 900;
+    color: rgb(241, 77, 77);
+    text-transform: uppercase;
+
+}
+
+/*aside bolumunun ayarlamsi yapildi*/
+aside {
+    align-content: center;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    float: left;
+    font-style: italic;
+
+}
+
+aside>.me {
+    align-content: center;
+    border: black;
+    border-style: outset;
+}
+
+a {
+
+    color: black;
+    font-size: large;
+    width: 40%;
+}
+
+/*table bolumunun ayarlamalari yapildi elimden geldigince secici kullanmaya calistim*/
+section table {
+    background-color: #021859;
+}
+
+section>table {
+
+    box-shadow: 10px 10px 5px black;
+    align-content: center;
+    margin-left: 9cm;
+    margin-top: 1.5cm;
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 700px;
+    height: 195px;
+}
+
+
+
+th,
+td {
+    text-align: center;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 1px double rgb(235, 4, 4);
+}
+
+
+table>td {
+    color: lightgray;
+}
+
+table>th {
+    color: #0433BF;
+}
+
+section>.profil th:nth-child(1n) {
+    background-color: #F25CA2;
+}
+
+section>.profil td:nth-child(2n) {
+    background-color: rgb(119, 16, 133);
+}
+
+section>.profil td:nth-child(2n-1) {
+    background-color: rgb(21, 166, 192);
+}
+
+/*caption ayarlari yapildi*/
+table>caption {
+    text-shadow: 2px 2px #FF0000;
+    color: black;
+    font-size: x-large;
+    color: rgb(29, 53, 87);
+
+}
+
+.skil{
+    box-shadow: 10px 10px 5px black;
+    align-content: center;
+    margin-left: 9cm;
+    margin-top: 1.5cm;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 700px;
+    height: 360px;
+    text-align: center;
+    background-color: #00cfeb;
+}
+.baslik{
+    margin-left: 15cm;
+    color: #021859;
+}
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: rgb(29, 53, 87);} /* Blue */
+.js {width: 15%; background-color: #f44336;} /* Red */
+.sql {width: 5%; background-color: #808080;} /* Dark Grey */
