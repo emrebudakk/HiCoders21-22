@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 236, 216);
+    margin: 0 auto;
+}
+
+.first {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62306D;
+}
+
+.shape-1 {
+    width: 0px;
+    height: 0px;
+    margin-bottom: -80px;
+    border: 40px solid#F7EC7D;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+}
+
+.shape-2 {
+    width: 0px;
+    height: 0px;
+    margin-top: -80px;
+    border: 40px solid #F7EC7D;
+    border-top-right-radius: 180px;
+    border-top-left-radius: 180px;
+}
+
+.shape-3 {
+    width: 0px;
+    height: 0px;
+    margin-bottom: -80px;
+    border: 40px solid #F7EC7D;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 180px;
+}
+
+.second {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E3516E;
+}
+
+.outer {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E3516E;
+}
+
+.left-piece {
+    width: 100px;
+    height: 100px;
+    background-color: #51B5A9;
+    border-radius: 100% 0% 0% 0%;
+}
+
+.right-piece {
+    width: 100px;
+    height: 100px;
+    background-color: #FADE8B;
+    border-radius: 0% 100% 0% 0%;
+}
+
+.lower-left-piece {
+    width: 100px;
+    height: 100px;
+    background-color: #F7F3D7;
+    border-radius: 0% 0% 0% 100%;
+}
+
+.third {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #191210;
+}
+
+.circel-1 {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    margin-bottom: -40px;
+    margin-left: -139px;
+    border-top: 0;
+    border: 14px solid #ECA03D;
+    border-top: 0;
+    border-radius: 0 0 110px 110px;
+}
+
+.circel-2 {
+    width: 70px;
+    height: 70px;
+    border: 14px solid#ECA03D;
+    border-radius: 50%;
+}
+
+.point {
+    width: 11px;
+    height: 11px;
+    border: 11px solid #84271C;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #84271C;
+}
+
+.circel-3 {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    margin-top: -40px;
+    margin-right: -138px;
+    border: 14px solid #ECA03D;
+    border-bottom: 0;
+    border-radius: 110px 110px 0 0;
+}
