@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    background-color: rgb(236, 235, 235);
+    color: rgb(5, 5, 5);
+}
+
+.container {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    margin: o auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section2 {
+    flex: 0 0 40%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    
+}
+
+.logo {
+    flex: 0 0 50%;
+    text-align: left;
+}
+
+.face {
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(27, 27, 250);
+}
+
+.logo h2 {
+    font: 26px;
+    font-weight: 400;
+    margin-right: 30px;
+    line-height: 32px;
+}
+
+.section2 form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-bottom: 30px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .form input,
+.section2 .form .konto {
+    width: 300px;
+    margin: 5px 0;
+    height: 45px;
+    font-size: 16px;
+}
+
+.section2 .form input {
+    border: 1px solid rgb(219, 218, 218);
+    color: rgb(48, 48, 114);
+    padding: 0 8px;
+    outline: none;
+    width: 75%;
+    border-radius: 8px;
+}
+
+.form input:focus {
+    border-color: rgb(27, 27, 250);
+    box-shadow: 0 0 0 2px rgb(234, 234, 255);
+}
+
+.section2 .form .anmel {
+    background-color: rgb(27, 27, 250);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 7px 0;
+    margin: 0 40px;
+    max-width: 320px;
+}
+
+.section2 .form a {
+    display: block;
+    color: rgb(27, 27, 250);
+    font-size: 14px;
+    padding: 10px solid rgb(226, 226, 226);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section2 .form .konto {
+    background-color: rgb(28, 167, 28);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    position: relative;
+    margin-top: 40px;
+    max-width: 200px;
+    margin-left: 25%;
+}
+
+.section2 p {
+    font-size: 14px;
+}
+
+.section2 p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.link {
+    position: absolute;
+    margin-bottom: -50px;
+}
+
+footer {
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-conteiner {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer ol:first-child {
+    border-bottom: 1px solid rgb(221, 223, 226);
+}
+
+ol:first-child li:last-child button {
+    background-color: rgb(245, 246, 247);
+    border: 1px solid rgb(204, 208, 213);
+    outline: none;
+    color: rgb(75, 79, 86);
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer ol li {
+    padding-right: 15px;
+    font-size: 13px;
+    color: rgb(56, 88, 152);
+}
+
+footer ol li a {
+    text-decoration: none;
+    color: rgb(56, 88, 152);
+}
+
+footer  small {
+    font-size: 15px;
+}
