@@ -5,90 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook login Page</title>
+    <title>CSS-Facebook</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <main class="container">
-        <div class="section1">
-            <div class="logo">
-                <p class="face">facebook</p>
-                <h2>Facebook bleibst du mit Menschen in Verbindung und teilst Fotos, Videos und vieles mehr mit ihnen.
-                </h2>
-            </div>
-            <div class="section2">
-                <div class="form">
-                    <input type="text" placeholder="E-Mail-Adresse oder Telefonnummer">
-                    <br />
-                    <input type="password" placeholder="Passwort">
-                    <br /><br />
-                    <a href="#" class="anmel">Anmelden</a>
-                    <br>
-                    <a href="#">Passwort vergessen?</a> 
-                    <br><hr>
-                    <a href="#" class="konto">Nieues Konto erstellen</a>
+    <main>
+        <section id="container">
+            <div class="left-side">
+                <div class="header">
+                    <h1 id="logo">facebook</h1>
                 </div>
-                <div class="link">
+                <p>
+                    Auf Facebook bleibst du mit Menschen
+                    in Verbindung und teilst Fotos, Videos
+                    und vieles mehr mit ihnen.
+                </p>
+            </div>
+
+            <div class="right-side">
+                <form id="forum">
+                    <br>
+                    <input type="email" id="email" placeholder="Email-Adresse oder Telefonnumer">
+                    <br>
+                    <input type="password" id="passwort" placeholder="Passwort">
+                    <br>
+                    <button id="anmelden"> Anmelden</button>
                     <p>
-                        <a href="">Erstelle eine Seite</a>
-                        für einen Star, eine Band oder ein <br>
+                        <a href="#">Passwort vergessen?</a>
+                    </p>
+                    <hr>
+                    <button id="Konto">Neus Konto erstellen</button>
+                </form>
+                <br>
+                <div class="box-footer">
+                    <p>
+                        <strong><a href="#">Erstelle eine Seite</a></strong> für einen Star,eine Band oder ein
                         Unternehmen.
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <footer>
+            <nav>
+                <ul class="lang">
+                    <li><a href="#">Deutsch</a> </li>
+                    <li><a href="#">Français (France)</a> </li>
+                    <li><a href="#">English (US)</a></li>
+                    <li><a href="#">Italiano</a></li>
+                    <li><a href="#">Português (Portugal)</a></li>
+                    <li><a href="#">Shqip</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Türkçe</a></li>
+                    <li><a href="#">العربية</a></li>
+                    <li><a href="#">हिन्दी</a></li>
+                    <li><a href="#">中文(简体)</a></li>
+                    <li><button>+</button></li>
+                </ul>
+                <br>
+                <hr>
+                <ul class="link">
+                    <li><a href="#">Registrieren</a></li>
+                    <li><a href="#">Anmelden</a></li>
+                    <li><a href="#">Messenger</a></li>
+                    <li><a href="#">Facebook Lite</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Orte</a></li>
+                    <li><a href="#">Spiele</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Facebook Pay</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Oculus</a></li>
+                    <li><a href="#">Portal</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Lokales</a></li>
+                    <li><a href="#">Spendenaktionen</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Wahl-Informationszentrum</a></li>
+                    <li><a href="#">Unternehmen</a></li>
+                    <li><a href="#">Unternehmen</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Werbeanzeige erstellen</a></li>
+                    <li><a href="#">Seite erstellen</a></li>
+                    <li><a href="#">Entwickler</a></li>
+                    <li><a href="#">Karriere</a></li>
+                    <li><a href="#">Privatsphäre</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Datenschutzinfo</a></li>
+                    <li><a href="#">Nutzungsbedingungen</a></li>
+                    <li><a href="#">Hilfe</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p>Facebook &copy; 2021</p>
+        </footer>
     </main>
-    <footer>
-        <div class="footer-conteiner">
-            <ol>
-                <li><a href="#">Deutsch</a> </li>
-                <li><a href="#">Français (France)</a> </li>
-                <li><a href="#">English (US)</a></li>
-                <li><a href="#">Italiano</a></li>
-                <li><a href="#">Português (Portugal)</a></li>
-                <li><a href="#">Shqip</a></li>
-                <li><a href="#">Español</a></li>
-                <li><a href="#">Türkçe</a></li>
-                <li><a href="#">العربية</a></li>
-                <li><a href="#">हिन्दी</a></li>
-                <li><a href="#">中文(简体)</a></li>
-                <li><button>+</button></li>
-            </ol>
-            <ol>
-                <li><a href="#">Registrieren</a></li>
-                <li><a href="#">Anmelden</a></li>
-                <li><a href="#">Messenger</a></li>
-                <li><a href="#">Facebook Lite</a></li>
-                <li><a href="#">Watch</a></li>
-                <li><a href="#">Orte</a></li>
-                <li><a href="#">Spiele</a></li>
-                <li><a href="#">Marketplace</a></li>
-                <li><a href="#">Facebook Pay</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Oculus</a></li>
-                <li><a href="#">Portal</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Lokales</a></li>
-                <li><a href="#">Spendenaktionen</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Wahl-Informationszentrum</a></li>
-                <li><a href="#">Unternehmen</a></li>
-                <li><a href="#">Unternehmen</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Werbeanzeige erstellen</a></li>
-                <li><a href="#">Seite erstellen</a></li>
-                <li><a href="#">Entwickler</a></li>
-                <li><a href="#">Karriere</a></li>
-                <li><a href="#">Privatsphäre</a></li>
-                <li><a href="#">Cookies</a></li>
-                <li><a href="#">Datenschutzinfo</a></li>
-                <li><a href="#">Nutzungsbedingungen</a></li>
-                <li><a href="#">Hilfe</a></li>
-            </ol>
-            <small>Facebook © 2021</small>
-        </div>
-    </footer>
 </body>
 
 </html>
