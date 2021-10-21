@@ -1,0 +1,112 @@
+main{
+    background-color: rgb(102, 168, 242);
+}
+
+.sol-bas{
+    background-color: rgb(246, 248, 252);
+}
+
+.kalin{
+    background-color: rgb(102, 168, 242);
+}
+
+.ince{
+    background-color: rgb(102, 168, 242);
+}
+
+.kisa{
+    background-color: rgb(102, 168, 242);
+}
+
+.orta-bas{
+    background-color: rgb(246, 248, 252);
+}
+
+.daire{
+    background-color: rgb(102, 168, 242);
+}
+
+.sag-bas {
+    background-color: rgb(102, 168, 242);
+}
+
+.sag-cizgi {
+    background-color: rgb(246, 248, 252);
+}
+
+.orta-orta {
+    background-color: rgb(246, 248, 252);
+}
+
+.orta-orta-ust {
+    background-color: rgb(102, 168, 242);
+}
+
+.orta-orta-merkez {
+    background-color: rgb(102, 168, 242);
+}
+
+.orta-orta-alt {
+    border: 1px solid rgb(102, 168, 242);
+}
+
+.center {
+    background-color: rgb(246, 248, 252);
+}
+
+.genel {
+    background-color: rgb(246, 248, 252);
+}
+
+.yuvarlak {
+    background-color: rgb(102, 168, 242);
+}
+
+.nokta {
+    background-color: rgb(102, 168, 242);
+}
+
+.acik {
+    background-color: rgb(246, 248, 252);
+    border: rgb(102, 168, 242);
+}
+
+.acik-daire {
+    background-color: rgb(102, 168, 242);
+    border: rgb(246, 248, 252);
+}
+
+.kapali {
+    background-color: rgb(246, 248, 252);
+    border: rgb(246, 248, 252);
+}
+
+.kapali-daire {
+    background-color: rgb(102, 168, 242);
+    border: rgb(246, 248, 252);
+}
+
+.aside {
+    background-color: rgb(246, 248, 252);
+}
+
+.bar {
+    background-color: rgb(246, 248, 252);
+}
+
+.uzun-bar {
+    background-color: rgb(102, 168, 242);
+}
+
+.kisa-bar {
+    background-color: rgb(246, 248, 252);
+}
+
+.foot {
+    border:  rgb(246, 248, 252);
+    background-color: rgb(246, 248, 252);
+}
+
+i{
+    color: rgb(102, 168, 242);
+}

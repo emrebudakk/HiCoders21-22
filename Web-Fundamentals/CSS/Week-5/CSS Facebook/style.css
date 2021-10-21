@@ -97,7 +97,8 @@ p {
     text-align: center;
 }
 
-#email , #passwort {
+#email,
+#passwort {
     border-color: rgb(0, 132, 255);
     text-decoration-color: gray;
 }
@@ -135,10 +136,10 @@ nav {
     border-style: hidden;
 }
 
-footer>p{
+footer>p {
     margin-left: 7vh;
 }
 
-a{
+a {
     color: rgb(67, 64, 250);
 }

@@ -1,0 +1,89 @@
+header {
+    display: flex;
+}
+
+.sol-bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orta-bas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.orta-orta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ucgen-dis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noktalar {
+    display: flex;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.foot {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}

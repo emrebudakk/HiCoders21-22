@@ -1,0 +1,248 @@
+main {
+    width: 100vw;
+    height: 109vh;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+}
+
+.sol-bas {
+    width: 30vw;
+    height: 20vh;
+    margin: 10px 5px;
+}
+
+.kalin {
+    width: 20vw;
+    height: 2vh;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.ince {
+    width: 20vw;
+    height: 1vh;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.kisa {
+    width: 6vw;
+    height: 4vh;
+}
+
+.orta-bas {    
+    width: 50vw;
+    height: 20vh;
+    margin: 10px 5px;
+}
+
+.daire {
+    position: absolute;
+    width: 3vw;
+    height: 6vh;
+    border-radius: 100%;
+
+}
+
+.daire-ucgen {
+    border-color: transparent transparent transparent white;
+    border-style: solid;
+    border-width: 10px 0px 10px 20px;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+.sag-bas {
+    width: 15vw;
+    height: 34vh;
+    margin: 10px 5px;
+}
+
+.sag-cizgi {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 3px;
+    margin-bottom: 11px;
+}
+
+.container {
+    width: 100vw;
+    height: 55vh;
+}
+
+.orta-orta {
+    width: 15vw;
+    height: 60vh;
+    margin: 5px 5px;
+    border-radius: 22px;
+}
+
+.orta-orta-ust {
+    width: 7vw;
+    height: 2px;
+}
+
+.orta-orta-merkez {
+    width: 12vw;
+    height: 45vh;
+    position: relative;
+    margin-top: 3vh;
+}
+
+.orta-orta-alt {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 3vh;
+    border-radius: 50%;
+}
+
+.center {
+    width: 45vw;
+    height: 60vh;
+    margin: 0px 15px;
+}
+
+.genel {
+    width: 30vw;
+    height: 43vh;
+}
+
+.yuvarlak {
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-bottom: -20px;
+}
+
+.ucgen-dis {    
+    margin-bottom: -80px;
+}
+
+.kucuk-ucgen {
+    border-color: transparent transparent rgb(102, 168, 242) transparent;
+    border-style: solid;
+    border-width: 0px 35px 60px 35px;
+    margin-top: 6.4vh;
+    margin-right: -5vh;
+}
+
+
+.buyuk-ucgen {
+    border-color: transparent transparent rgb(102, 168, 242) transparent;
+    border-style: solid;
+    border-width: 0px 60px 100px 60px;
+}
+
+.noktalar {
+    margin-top: 10vh;
+}
+
+
+.nokta {
+    width: 0.5vw;
+    height: 1vh;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.switch {    
+    width: 13vw;
+    height: 7vh;
+    margin: 0 10px;
+    position: absolute;
+    margin-left: 150vh;
+    margin-top: -2vh;
+}
+
+.acik {
+    width: 4vw;
+    height: 4.5vh;
+    border-radius: 20px;
+    border: 1px solid ;
+}
+
+.acik-daire {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-top: 0.2px;
+    border: 1px solid ;    
+
+}
+
+.kapali {
+    width: 4vw;
+    height: 4.5vh;
+    border-radius: 20px;
+    margin-left: 25px;
+    border: 1px solid ;
+}
+
+.kapali-daire {
+    width: 2vw;
+    height: 4.5vh;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-top: -1px;
+    border: 1px solid;
+}
+
+.aside {
+    width: 33vw;
+    height: 50vh;
+    margin: 0 10px;
+    margin-top: 65px;
+}
+
+footer {
+    width: 100%;
+    height: 13vh;
+    margin-top: 15px ;
+}
+
+.bar {
+    width: 61.5vw;
+    height: 8vh;
+    margin: 10px 10px;
+    border-radius: 1px;
+}
+
+.uzun-bar {
+    width: 40vw;
+    height: 6.6vh;
+    border-radius: 2px;
+    margin: 1px 0 1px 1px;
+    margin-left: -15px;
+}
+
+.kisa-bar {
+    width: 20vw;
+    height: 5vh;
+}
+
+.nav {
+    width: 30vw;
+    height: 7vh;
+    margin: 10px 10px;
+}
+
+nav {
+    margin-top: 8px;
+}
+
+.foot {
+    width: 45px;
+    height: 47px;
+    border: 1px solid;
+    margin-right: 53px;
+}
+
+i{
+    font-size: xx-large;
+}
